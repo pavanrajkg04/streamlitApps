@@ -18,7 +18,7 @@ y = data['charges']
 # Split the data
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0, test_size=0.2)
 
-# Standard scaling
+# Standard scalingd
 sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 
