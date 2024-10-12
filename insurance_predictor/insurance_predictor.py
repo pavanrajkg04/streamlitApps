@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 
 # Load the data
-data = pd.read_csv('/workspaces/streamlitApps/insurance_predictor/insurance.csv')
+data = pd.read_csv('insurance_predictor/insurance.csv')
 
 # One-hot encoding
 data = pd.get_dummies(data=data, drop_first=True)
